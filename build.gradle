@@ -1,0 +1,49 @@
+
+// Apply the java plugin to add support for Java
+apply plugin: 'java'
+
+// Apply the Eclipse plugin to add support for Eclipse, which can be used for clea n and build the project when you add dependency 
+apply plugin : 'eclipse'
+
+
+// Apply the application plugin to add support for building an application
+apply plugin: 'application'
+
+// In this section you declare where to find the dependencies of your project
+repositories {
+    // Use jcenter for resolving your dependencies.
+    // You can declare any Maven/Ivy/file repository here.
+    jcenter()
+}
+
+dependencies {
+	//Selenium dependency for 'main' folder
+	compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.3.1'
+	//Selenium dependency for 'test' folder
+    testCompile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.3.1'
+	
+    //TestNG dependency for 'main' folder
+	compile group: 'org.testng', name: 'testng', version: '6.11'
+    //TestNG dependency for 'test' folder
+    testCompile group: 'org.testng', name: 'testng', version: '6.11'
+	
+    // This dependency is found on compile classpath of this component and consumers.
+    testCompile 'com.google.guava:guava:21.0'
+
+}
+
+// Define the main class for the application
+mainClassName = 'App'
+
+task buildProject{
+    System.out.println("Cleaning the project...");
+    System.out.println("Building the project...");
+}
+
+test {
+    useTestNG() {
+        //required to turn on TestNG reports
+        useDefaultListeners = true
+        suites 'src/test/resources/testng.xml'
+    }
+}

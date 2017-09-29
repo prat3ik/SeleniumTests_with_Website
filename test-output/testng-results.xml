@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" ignored="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="106" started-at="2017-09-28T07:40:34Z" finished-at="2017-09-28T07:40:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="106" started-at="2017-09-28T07:40:34Z" finished-at="2017-09-28T07:40:34Z">
+      <class name="smoke.testcases.SmokeTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:smoke.testcases.SmokeTest@47c62251]" name="beforeSuite" is-config="true" duration-ms="19" started-at="2017-09-28T13:10:34Z" finished-at="2017-09-28T13:10:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:smoke.testcases.SmokeTest@47c62251]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-09-28T13:10:34Z" finished-at="2017-09-28T13:10:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="beforeMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:smoke.testcases.SmokeTest@47c62251]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2017-09-28T13:10:34Z" finished-at="2017-09-28T13:10:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@10da16ff]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void smoke.testcases.SmokeTest.verifyNewCreatedPostCanBeDeleted()]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+
+	at core.driver.WebDriverFactory.getWebDriver(WebDriverFactory.java:22)
+	at core.driver.WebDriverManager.createThreadLocalWebDriver(WebDriverManager.java:37)
+	at core.testcase.BaseTestCase.beforeMethod(BaseTestCase.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="beforeMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:smoke.testcases.SmokeTest@47c62251]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2017-09-28T13:10:34Z" finished-at="2017-09-28T13:10:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@10da16ff]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void smoke.testcases.SmokeTest.verifyNewCreatedPostWithImageCanBePublished()]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+
+	at core.driver.WebDriverFactory.getWebDriver(WebDriverFactory.java:22)
+	at core.driver.WebDriverManager.createThreadLocalWebDriver(WebDriverManager.java:37)
+	at core.testcase.BaseTestCase.beforeMethod(BaseTestCase.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="beforeMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:smoke.testcases.SmokeTest@47c62251]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2017-09-28T13:10:34Z" finished-at="2017-09-28T13:10:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@10da16ff]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void smoke.testcases.SmokeTest.verifyNewCreatedPostCanBeEdited()]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+
+	at core.driver.WebDriverFactory.getWebDriver(WebDriverFactory.java:22)
+	at core.driver.WebDriverManager.createThreadLocalWebDriver(WebDriverManager.java:37)
+	at core.testcase.BaseTestCase.beforeMethod(BaseTestCase.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="verifyNewCreatedPostCanBeEdited()[pri:0, instance:smoke.testcases.SmokeTest@47c62251]" name="verifyNewCreatedPostCanBeEdited" duration-ms="2" started-at="2017-09-28T13:10:34Z" finished-at="2017-09-28T13:10:34Z">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+
+	at core.driver.WebDriverFactory.getWebDriver(WebDriverFactory.java:22)
+	at core.driver.WebDriverManager.createThreadLocalWebDriver(WebDriverManager.java:37)
+	at core.testcase.BaseTestCase.beforeMethod(BaseTestCase.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewCreatedPostCanBeEdited -->
+        <test-method status="SKIP" signature="verifyNewCreatedPostCanBeDeleted()[pri:0, instance:smoke.testcases.SmokeTest@47c62251]" name="verifyNewCreatedPostCanBeDeleted" duration-ms="0" started-at="2017-09-28T13:10:34Z" finished-at="2017-09-28T13:10:34Z">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+
+	at core.driver.WebDriverFactory.getWebDriver(WebDriverFactory.java:22)
+	at core.driver.WebDriverManager.createThreadLocalWebDriver(WebDriverManager.java:37)
+	at core.testcase.BaseTestCase.beforeMethod(BaseTestCase.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewCreatedPostCanBeDeleted -->
+        <test-method status="SKIP" signature="verifyNewCreatedPostWithImageCanBePublished()[pri:0, instance:smoke.testcases.SmokeTest@47c62251]" name="verifyNewCreatedPostWithImageCanBePublished" duration-ms="0" started-at="2017-09-28T13:10:34Z" finished-at="2017-09-28T13:10:34Z">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+
+	at core.driver.WebDriverFactory.getWebDriver(WebDriverFactory.java:22)
+	at core.driver.WebDriverManager.createThreadLocalWebDriver(WebDriverManager.java:37)
+	at core.testcase.BaseTestCase.beforeMethod(BaseTestCase.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewCreatedPostWithImageCanBePublished -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:smoke.testcases.SmokeTest@47c62251]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-09-28T13:10:34Z" finished-at="2017-09-28T13:10:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:smoke.testcases.SmokeTest@47c62251]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-09-28T13:10:34Z" finished-at="2017-09-28T13:10:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- smoke.testcases.SmokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
